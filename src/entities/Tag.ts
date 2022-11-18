@@ -25,7 +25,7 @@ class Tag {
     constructor() {
         //if (se o id não estiver prenchido) {}
         if (!this.id) {
-
+            this.id = uuid();
         }
     }
 }
