@@ -5,21 +5,16 @@ import {
     CreateDateColumn,
     UpdateDateColumn
 } from "typeorm";
-import { v4 as uuid } from 'uuid';
 
-@Entity("users")
-class User {
+import { v4 as uuid } from "uuid";
+
+@Entity("tags")
+class Tag {
     @PrimaryColumn()
     readonly id: string;
 
     @Column()
     name: string;
-
-    @Column()
-    email: string;
-
-    @Column()
-    admin: boolean;
 
     @CreateDateColumn()
     created_at: Date;
@@ -35,4 +30,4 @@ class User {
     }
 }
 
-export { User }; 
+export { Tag }
