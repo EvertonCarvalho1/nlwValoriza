@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import { RepositoryNotTreeError } from "typeorm";
 import { CreateTagService } from '../services/CreateTagService';
 
 class CreateTagController {
@@ -7,7 +8,9 @@ class CreateTagController {
 
         const createTagService = new CreateTagService();
 
-        const tag = await createTagService.execute(name)
+        const tag = await createTagService.execute(name);
+
+        return response.json(tag);
     }
 }
 
