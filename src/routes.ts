@@ -10,7 +10,7 @@ const createTagController = new CreateTagController();
 
 router.post("/users", createUserController.handle);
 
-
-router.post("/tags", createTagController.handle);
+//rota com middleware pra verificar é um admin
+router.post("/tags", ensureAdmin, createTagController.handle);
 
 export { router }
