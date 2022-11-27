@@ -36,8 +36,11 @@ class AuthenticateUserService {
             '3810931a28ff71db6a8bd63cc150a5cc',
             {
                 subject: user.id,
+                expiresIn: '1d'
             }
         );
+
+        return token;
     }
 }
 
