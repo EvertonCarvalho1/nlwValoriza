@@ -9,6 +9,9 @@ export function ensureAdmin(
     response: Response,
     next: NextFunction
 ) {
+    const { user_id } = request;
+    console.log('testando', user_id)
+
     // Verificar se o usuário é admin
     const admin = true;
 
