@@ -12,7 +12,6 @@ export async function ensureAdmin(
     next: NextFunction
 ) {
     const { user_id } = request;
-    console.log('testando', user_id);
 
     const usersRepositories = getCustomRepository(UsersRepositories);
 
