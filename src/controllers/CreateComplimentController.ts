@@ -17,6 +17,8 @@ class CreateComplimentController {
             message
         });
 
+        console.log('aaaaaa', request)
+
         return response.json(compliment);
     }
 }
