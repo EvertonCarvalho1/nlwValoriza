@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=nlw&message=Together&color=blueviolet&style=for-the-badge"/>
-  <img src="https://img.shields.io/github.com/EvertonCarvalho1/nlwValoriza?color=blueviolet&logo=License&style=for-the-badge"/>
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EvertonCarvalho1/nlwValoriza?color=blueviolet&logo=TypeScript&logoColor=white&style=for-the-badge">
   
 </p>
