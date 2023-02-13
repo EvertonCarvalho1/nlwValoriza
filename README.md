@@ -42,7 +42,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/EvertonCarvalho1/nlwValoriza
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw-valoriza
+$ cd nlwValoriza
 
 # Instale as dependências
 $ yarn
