@@ -48,7 +48,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/MrRioja/nlw-valoriza.git
+$ git clone https://github.com/EvertonCarvalho1/nlwValoriza
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd nlw-valoriza
