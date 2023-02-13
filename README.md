@@ -6,14 +6,6 @@
   
 </p>
 
-<p align="center">
-  <a href="#sobre">Sobre</a> •
-  <a href="#valoriza">Valoriza</a> •
-  <a href="#instalação">Instalação</a> •
-  <a href="#tecnologias">Tecnologias</a> •
-  <a href="#autor">Autor</a>  
-</p>
-
 ## Sobre
 
 Projeto desenvolvido durante a NLW Together, evento criado pela Rocketseat. Um evento 100% online e GRATUITO, com conteúdo exclusivo e INÉDITO.
